@@ -30,7 +30,7 @@ namespace LoginForm
         {
             string connectionString;
             SqlConnection cnn;
-            connectionString = @"Data Source= Qc/UserDB ;Initial Catalog=UserDB;Integrated Security= True";
+            connectionString = @"Database connection string";
             cnn = new SqlConnection(connectionString);
             cnn.Open();
             MessageBox.Show("Connection Open  !");
